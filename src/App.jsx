@@ -185,7 +185,7 @@ const App = () => {
   };
 
   const calculateTimeTogether = () => {
-    const startDate = new Date('2025-03-04'); // Dating started March 4, 2025 (based on first pic)
+    const startDate = new Date('2025-02-10'); // Dating started March 4, 2025 (based on first pic)
     const now = new Date('2025-08-01'); // 3rd monthsary date
     const diffTime = Math.abs(now - startDate);
     const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
